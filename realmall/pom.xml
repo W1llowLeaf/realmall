@@ -17,11 +17,15 @@
         <module>realmall-ware</module>
         <module>realmall-third-party</module>
     </modules>
-    <mysql.version>8.0.25</mysql.version>
-    <mybatisplus.version>3.5.1</mybatisplus.version>
-    <springboot.version>2.6.5</springboot.version>
-    <spring-cloud-alibaba.version>2021.0.1.0</spring-cloud-alibaba.version>
-    <spring-cloud.version>2021.0.1</spring-cloud.version>
+    <properties>
+        <mysql.version>8.0.25</mysql.version>
+        <mybatisplus.version>3.5.1</mybatisplus.version>
+        <springboot.version>2.6.5</springboot.version>
+        <spring-cloud-alibaba.version>2021.0.1.0</spring-cloud-alibaba.version>
+        <spring-cloud.version>2021.0.1</spring-cloud.version>
+    </properties>
+
+    <dependencies></dependencies>
     <dependencyManagement>
         <dependencies>
             <dependency>
