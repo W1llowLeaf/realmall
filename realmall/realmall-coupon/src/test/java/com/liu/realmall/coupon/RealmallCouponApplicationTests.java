@@ -1,10 +1,10 @@
-package com.liu.realmall.realmallproduct;
+package com.liu.realmall.coupon;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RealmallProductApplicationTests {
+class RealmallCouponApplicationTests {
 
     @Test
     void contextLoads() {

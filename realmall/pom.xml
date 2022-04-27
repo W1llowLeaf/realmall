@@ -9,10 +9,42 @@
     <description>聚合</description>
     <packaging>pom</packaging>
     <modules>
+        <module>realmall-common</module>
         <module>realmall-coupon</module>
         <module>realmall-member</module>
         <module>realmall-order</module>
         <module>realmall-product</module>
         <module>realmall-ware</module>
+        <module>realmall-third-party</module>
     </modules>
+    <mysql.version>8.0.25</mysql.version>
+    <mybatisplus.version>3.5.1</mybatisplus.version>
+    <springboot.version>2.6.5</springboot.version>
+    <spring-cloud-alibaba.version>2021.0.1.0</spring-cloud-alibaba.version>
+    <spring-cloud.version>2021.0.1</spring-cloud.version>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${spring-cloud-alibaba.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>aliyun-spring-boot-dependencies</artifactId>
+                <version>1.0.0</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
